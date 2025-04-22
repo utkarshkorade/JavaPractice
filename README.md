@@ -1,8 +1,7 @@
+ HEAD
 # Java Practice Projects
 
-This repository contains a collection of Java projects and examples that I have worked on to enhance my understanding of core Java concepts. Each folder represents a specific topic or area of Java programming, with detailed examples and exercises.
-
----
+This repository contains a collection of Java projects and examples that I have worked on to enhance my understanding of core Java concepts. Each folder represents a specific topic or area of Java programming, with detailed examples and exercises
 
 ## 📁 Project Structure
 
@@ -33,16 +32,16 @@ This repository contains a collection of Java projects and examples that I have 
 9. **StringExamples**  
    - String manipulation techniques, including operations, comparisons, and use of StringBuilder and StringBuffer.
 
----
 
 ## 💡 Key Features
 - Well-structured code with comments for better understanding.
 - Covers a wide range of topics essential for mastering Java.
 - Ideal for beginners and those revisiting Java concepts.
 
----
 
 ## 🚀 How to Run the Code
 1. Clone the repository:  
    ```bash
    git clone https://github.com/utkarshkorade/JavaPractice.git
+
+
