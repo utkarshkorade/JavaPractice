@@ -1,0 +1,28 @@
+try-catch: Basic exception handling.
+finally: Ensures code execution even after an exception.
+throw: Manually throw an exception.
+throws: Propagate an exception.
+Custom exceptions: Define application-specific errors
+
+
+try {
+    // Code that may throw an exception
+} catch (SpecificExceptionType e) {
+    // Handle specific exception
+} catch (AnotherExceptionType e) {
+    // Handle another type of exception
+} finally {
+    // Code that always executes, like cleanup
+}
+
+Throwable
+Error: Serious issues that an application usually cannot recover from (e.g., OutOfMemoryError, StackOverflowError).
+Exception: Issues that applications might handle (e.g., IOException, NullPointerException).
+Checked Exception: Exceptions checked at compile-time (e.g., FileNotFoundException, SQLException).
+Unchecked Exception: Also known as runtime exceptions; these are not checked at compile time (e.g., ArithmeticException, NullPointerException).
+
+
+Types of Exceptions
+Checked Exceptions: Checked at compile-time. The compiler requires handling these with either a try-catch block or a throws declaration. Examples: IOException, SQLException.
+Unchecked Exceptions (Runtime Exceptions): Occur at runtime, and the compiler does not require them to be caught or declared. Examples: NullPointerException, ArrayIndexOutOfBoundsException.
+Errors: Indicate serious issues (like JVM errors) that usually cannot be recovered from. Example: OutOfMemoryError.
